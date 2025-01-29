@@ -44,3 +44,16 @@ img{
         .button{
             color:red;
         }
+  background-color: #0056b3;
+            border-radius: 5px;
+        @media (max-width: 768px) {
+            header nav a {
+                width: 80%;
+            }
+        }
+        @media (max-width: 480px) {
+           header nav a {
+                width: 100%;
+                margin: 10px;
+            }
+        }
